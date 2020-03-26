@@ -1,0 +1,22 @@
+{
+  "name": "stack",
+  "version": "0.0.1",
+  "description": "A Stack implementation in TypeScript",
+  "main": "dist/index.js",
+  "author": "Stanley Sathler",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.12.31",
+    "jest": "^25.2.3",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
